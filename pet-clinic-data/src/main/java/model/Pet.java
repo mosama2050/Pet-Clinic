@@ -1,4 +1,4 @@
-package smsm.spring.pet.model;
+package model;
 
 import java.time.LocalDate;
 

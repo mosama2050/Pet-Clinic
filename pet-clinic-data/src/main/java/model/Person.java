@@ -1,4 +1,4 @@
-package smsm.spring.pet.model;
+package model;
 
 public class Person {
     private String firstName;
