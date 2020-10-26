@@ -1,6 +1,6 @@
-package model;
+package smsm.spring.pet.model;
 
-public class Person {
+public class Person extends  BaseEntity{
     private String firstName;
     private  String lastName;
 

@@ -1,6 +1,6 @@
-package services;
+package smsm.spring.pet.services;
 
-import model.Owner;
+import smsm.spring.pet.model.Owner;
 
 import java.util.Set;
 

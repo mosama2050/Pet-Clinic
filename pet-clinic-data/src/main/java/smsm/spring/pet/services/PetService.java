@@ -1,7 +1,7 @@
-package services;
+package smsm.spring.pet.services;
 
 
-import model.Pet;
+import smsm.spring.pet.model.Pet;
 
 import java.util.Set;
 
