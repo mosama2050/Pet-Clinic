@@ -5,9 +5,8 @@ import smsm.spring.pet.model.Pet;
 
 import java.util.Set;
 
-public interface PetService {
+public interface PetService extends CrudService<Pet,Long> {
 
-    Pet findById (long id );
-    Pet save(Pet pet);
-    Set<Pet> findAll();
+
+
 }

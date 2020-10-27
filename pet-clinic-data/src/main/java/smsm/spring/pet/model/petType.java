@@ -1,7 +1,7 @@
 package smsm.spring.pet.model;
 
-public class petType extends  BaseEntity {
-private  String name ;
+public class petType extends BaseEntity {
+    private String name;
 
     public String getName() {
         return name;
