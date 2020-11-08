@@ -2,10 +2,11 @@ package smsm.spring.pet.services.map;
 
 import smsm.spring.pet.model.Owner;
 import smsm.spring.pet.services.CrudService;
+import smsm.spring.pet.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
     @Override
@@ -31,5 +32,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
