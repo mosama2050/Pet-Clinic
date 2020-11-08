@@ -1,11 +1,12 @@
 package smsm.spring.pet.services.map;
 
+import org.springframework.stereotype.Service;
 import smsm.spring.pet.model.Owner;
 import smsm.spring.pet.services.CrudService;
 import smsm.spring.pet.services.OwnerService;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 

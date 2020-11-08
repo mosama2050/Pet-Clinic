@@ -1,12 +1,13 @@
 package smsm.spring.pet.services.map;
 
+import org.springframework.stereotype.Service;
 import smsm.spring.pet.model.Pet;
 import smsm.spring.pet.model.Vet;
 import smsm.spring.pet.services.CrudService;
 import smsm.spring.pet.services.PetService;
 
 import java.util.Set;
-
+@Service
 public class PetMapService extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
