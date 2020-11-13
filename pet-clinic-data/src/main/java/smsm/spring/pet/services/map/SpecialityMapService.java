@@ -1,11 +1,13 @@
 package smsm.spring.pet.services.map;
 
+import org.springframework.stereotype.Service;
 import smsm.spring.pet.model.Speciality;
-import smsm.spring.pet.services.SpecialtiesService;
+import smsm.spring.pet.services.SpecialtyService;
 
 import java.util.Set;
+@Service
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
 
 @Override
 public Set<Speciality> findAll() {
