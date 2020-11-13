@@ -2,12 +2,12 @@ package smsm.spring.pet.services.map;
 
 import org.springframework.stereotype.Service;
 import smsm.spring.pet.model.PetType;
-import smsm.spring.pet.services.petTypeService;
+import smsm.spring.pet.services.PetTypeService;
 
 import java.util.Set;
 
 @Service
-public class PetTypeMapService  extends  AbstractMapService<PetType , Long> implements petTypeService {
+public class PetTypeMapService  extends  AbstractMapService<PetType , Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {
         return super.findAll();

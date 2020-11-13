@@ -3,15 +3,15 @@ package smsm.spring.pet.model;
 import java.time.LocalDate;
 
 public class Pet extends BaseEntity {
-    private petType petType;
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDay;
 
-    public petType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(petType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
